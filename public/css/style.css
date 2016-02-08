@@ -1,0 +1,42 @@
+body {
+	height: auto;
+	width: auto;
+	font-family: Droid Sans, Ubuntu, sans-serif;
+}
+
+.lavy {
+	width: 40%;
+	float: left;
+}
+
+.pravy {
+	width: 60%;
+	float: left;
+}
+
+.pravy input {
+	width: 30em;
+}
+
+.recept {
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid black;
+	overflow: hidden;
+}
+
+.btnUprav, .btnVymaz, .btnZrus, .btnUloz {
+	float: right;
+}
+
+input.ingrediencie {
+	width: 15em;
+}
+
+.lavy {
+	color: red;
+}
+
+.lavy b {
+	color: black;
+}

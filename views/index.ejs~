@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="js/index.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="pravy">
+			<div class="hladaj">
+				<h3>Zobraz všetky recepty</h3>
+				<button class="btnZobrazVsetky">Zobraz všetky recepty</button>
+			</div>
+			<div class="hladaj">
+				<h3>Hľadaj podľa UUID</h3>
+				UUID: <input type="text" name="hladaj-uuid"> 
+				<button name="uuid" class="btnUuid">Hľadaj</button>
+			</div>
+			<div class="hladaj">
+				<h3>Hľadaj podľa kľúčových slov</h3>
+				Kľúčové slová: <input type="text" name="hladaj-klucove-slova"> 
+				<button name="klucove-slova" class="btnKlucoveSlova">Hľadaj</button>
+			</div>
+			<div class="hladaj">
+				<h3>Hľadaj podľa ingrediencií</h3>
+				Ingrediencie: <input type="text" name="hladaj-ingrediencie"> 
+				<button name="ingrediencie" class="btnIngrediencie">Hľadaj</button>
+			</div>
+			<br />
+			<div class="pridaj">
+				<h3>Pridaj nový recept</h3>
+				Názov: <input type="text" name="nazov"><br />
+				Autor: <input type="text" name="autor"><br />
+				Ingrediencie: <br />
+				Ingrediencia: <input type="text" name="ingrediencia" class="ingrediencie">
+				Množstvo: <input type="text" name="mnozstvo" class="ingrediencie">
+				<button class="btnDalsiaIngrediencia">Ďalšia ingrediencia</button><br />
+				Postup prípravy: <br />
+				<textarea cols="80" rows="5" name="postup"></textarea><br />
+				<button class="btnPridaj">Pridaj recept</button>
+			</div>
+		</div>
+		<div class="lavy"></div>
+	</body>
+</html>
